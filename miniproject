@@ -1,0 +1,15 @@
+server {
+       listen 80;
+       server_name miniproject;
+#       return 301 https://$server_name$request_uri;
+       root /home/miniwensite;
+       index index.html index.htm index.nginx-debian.html;
+       server_name subha95.tk;
+       #ssl on;
+       #ssl_certificate     /etc/nginx/ssl/CERTIFICATE.crt;
+       #ssl_certificate_key  /etc/nginx/ssl/CERTIFICATE.key;
+       location / {
+
+}
+}
+
